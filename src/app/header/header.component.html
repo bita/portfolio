@@ -9,10 +9,16 @@
                 <a class="nav-link" routerLink="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" routerLink="/contact">Contact</a>
+                <a class="nav-link" routerLink="/contact">Template Base Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/form">Reactive Contact</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" routerLink="/admin/list">Admin</a>
+            </li>
+            <li *ngIf="authService.isLoggedIn" class="nav-item">
+                <a class="nav-link" (click)="authService.logout()">Logout</a>
             </li>
         </ul>
     </div>

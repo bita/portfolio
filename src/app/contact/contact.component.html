@@ -1,1 +1,13 @@
-<p>contact works!</p>
+<div class="container">
+    <h1 class="mt-3"> Template-Based Contact Form </h1>
+    <form #myform="ngForm" (ngSubmit)="onSubmit(myform)">
+        <input class="mt-3" type="text" name="fullName" placeholder="Your full name" ngModel>
+        <br />
+        <input class="mt-3" type="email" name="email" placeholder="Your email" ngModel>
+        <br />
+        <textarea class="mt-3" name="message" placeholder="Your message" ngModel></textarea>
+        <br />
+        <input class="mt-3" type="submit" value="Send">
+    </form>
+
+</div>

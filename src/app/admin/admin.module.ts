@@ -5,11 +5,12 @@ import { ProjectCreateComponent } from './project-create/project-create.componen
 import { ProjectUpdateComponent } from './project-update/project-update.component';
 import { ProjectComponent } from './project/project.component';
 import { AdminRoutingModule } from './admin-routing.module';
+import { LoginComponent } from './login/login.component';
 
 
 
 @NgModule({
-  declarations: [ProjectListComponent, ProjectCreateComponent, ProjectUpdateComponent, ProjectComponent],
+  declarations: [ProjectListComponent, ProjectCreateComponent, ProjectUpdateComponent, ProjectComponent, LoginComponent],
   imports: [
     CommonModule,
     AdminRoutingModule

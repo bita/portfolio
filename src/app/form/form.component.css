@@ -11,7 +11,7 @@ html{
     box-shadow: 4px 4px 8px rgba(0,0,0.15)
   }
   h1{
-    background-color: tomato;
+    background-color:burlywood;
     color: white;
     text-align: center;
     padding:6px;
@@ -85,12 +85,12 @@ html{
   }
   /* BUTTONS */
   input[type=submit]{
-    background-color:#e1998c;
+    background-color:#916732;
     color:white;
     border:none;
     padding: 6px 20px;
     font-size:110%;
-    width: 100%;
+    width: 100;
     border-radius:4px;
     font-family: Rockwell, georgia, serif;
   }
@@ -132,8 +132,6 @@ html{
     width: 70%;
     margin: 0 auto;
   }
-  
-  
   
   
   

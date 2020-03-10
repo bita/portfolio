@@ -7,20 +7,33 @@ import { ProjectComponent } from './admin/project/project.component';
 import { ProjectListComponent } from './admin/project-list/project-list.component';
 import { ProjectCreateComponent } from './admin/project-create/project-create.component';
 import { ProjectUpdateComponent } from './admin/project-update/project-update.component';
+import { AdminGuard } from './admin/admin.guard';
+import { FormComponent } from './form/form.component';
 
 
 const routes: Routes = [
   {
     path: 'home',
-    component: HomeComponent
+    component: HomeComponent,
+    canActivate: [AdminGuard]
   },
   {
     path: 'about',
-    component: AboutComponent
+    component: AboutComponent,
+    canActivate: [AdminGuard]
+
   },
   {
     path: 'contact',
-    component: ContactComponent
+    component: ContactComponent,
+    canActivate: [AdminGuard]
+
+  },
+  {
+    path: 'form',
+    component: FormComponent,
+    canActivate: [AdminGuard]
+
   }
 ];
 

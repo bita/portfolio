@@ -1,0 +1,12 @@
+<div class="container">
+    <h1 class="mt-3"> Reactive Contact Form Example </h1>
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <input class="mt-3" type="text" name="fullName" placeholder="Your full name" formControlName="fullName">
+        <br />
+        <input class="mt-3" type="email" name="email" placeholder="Your email" formControlName="email">
+        <br />
+        <textarea class="mt-3" name="message" placeholder="Your message" formControlName="message"></textarea>
+        <br />
+        <input class="mt-3" type="submit" value="Send">
+    </form>
+</div>
