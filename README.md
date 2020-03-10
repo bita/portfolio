@@ -1,5 +1,5 @@
 # portfolio
-angular base portfolio with firebase and https://newsapi.org this is a test project and will be update over developing
+angular base portfolio with firebase and https://newsapi.org this is a test project and will be updated over developing
 # AngularPortfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
